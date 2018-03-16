@@ -1,0 +1,18 @@
+代码记录
+
+'''
+Created on 2017年2月17日
+
+@author: fanzhaoni
+'''
+..............................1.0................................
+模块引用的操作
+运行文件run_test.py
+import sys
+sys.path.append("./models")  #将models添加到系统环境变量path下面
+sys.path.append("./page_obj") #将page_obj添加到系统环境变量path下面
+sys.path.append("./DataDriver")#将DataDriver添加到系统环境变量path下面
+
+2018.3.7 fanzhaoni
+base、CommonControl调整至page_com包下面
+
